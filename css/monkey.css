@@ -2,11 +2,29 @@ html {
   background: url(../images/spice-girls.jpg) no-repeat top left;
 }
 
-#monkey {
-  position: absolute;
-  top: 550px;
-  right: 120px;
-}
+/*#monkey {*/
+/*  position: absolute;*/
+/*  top: 550px;*/
+/*  right: 120px;*/
+/*}*/
 
 /* Write your solution here */
-
+@media (max-width:406px)
+{
+  #monkey
+  {
+  position: static;
+  top: 100px;
+  bottom: 800px;
+  left:50px;
+  }
+}
+@media (min-width:1170px)
+{
+  #monkey
+  {
+  position: relative;
+  top: 800px;
+  bottom: 500px;
+}
+}
